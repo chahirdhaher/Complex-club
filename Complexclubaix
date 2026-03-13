@@ -1,1 +1,72 @@
+<style>
+
+.hero{
+height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+background:black;
+position:relative;
+overflow:hidden;
+}
+
+.hero-bg{
+position:absolute;
+width:120%;
+height:120%;
+background:radial-gradient(circle,#ff1a8c33 0%,transparent 60%);
+animation:pulse 6s infinite;
+}
+
+.hero h1{
+font-family:'Bebas Neue',sans-serif;
+font-size:120px;
+letter-spacing:8px;
+color:white;
+text-shadow:0 0 40px #ff1a8c;
+}
+
+.hero-city{
+color:#ff1a8c;
+letter-spacing:6px;
+margin-top:10px;
+}
+
+.hero-tag{
+color:#aaa;
+margin-top:10px;
+letter-spacing:4px;
+}
+
+.hero-buttons{
+margin-top:40px;
+display:flex;
+gap:20px;
+justify-content:center;
+}
+
+.btn-primary{
+padding:16px 40px;
+background:#ff1a8c;
+color:black;
+text-decoration:none;
+font-weight:bold;
+letter-spacing:2px;
+}
+
+.btn-secondary{
+padding:16px 40px;
+border:1px solid #ff1a8c;
+color:#ff1a8c;
+text-decoration:none;
+}
+
+@keyframes pulse{
+0%{transform:scale(1)}
+50%{transform:scale(1.1)}
+100%{transform:scale(1)}
+}
+
+</style>
 
